@@ -1,13 +1,3 @@
-
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
-
-pip install numpy==1.26.4 pandas==2.2.2 scipy==1.13.1 scikit-learn==1.5.1 matplotlib==3.9.2
-pip install transformers==4.56.1 accelerate==1.10.1 peft==0.17.1
-# Install the PyTorch 2.8.0 build appropriate for the local CUDA environment:
-# https://pytorch.org/get-started/locally/
-```
-
 ## Running the classifiers
 
 Run commands from the repository root. Use `classification2` for the binary task and `classification6` for the six-class task.
